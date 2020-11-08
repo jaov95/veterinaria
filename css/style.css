@@ -1,4 +1,23 @@
-
-.action-menu{
-    
+a .fa-trash-alt{
+    color: rgb(223, 0, 0)!important;
+}
+a .fa-trash-alt:hover{
+    color: rgb(150, 0, 0)!important;
+}
+a .fa-plus-circle{
+    color: #096b00;
+}
+a .fa-plus-circle:hover{
+    color: #39c92c;
+}
+#tipo-mascota:hover{
+    cursor: pointer;
+}
+#duenioExistente{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#duenioNuevo{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
