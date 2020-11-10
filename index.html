@@ -72,9 +72,13 @@
                                     <option selected>Seleccione...</option>
                                     <option>Perro</option>
                                     <option>Gato</option>
-                                    <option>Ave</option>
-                                    <option>Roedor</option>
-                                    <option>Conejo/Liebre</option>
+                                    <option>Loro</option>
+                                    <option>Canario</option>
+                                    <option>Cotorra</option>
+                                    <option>Cuy</option>
+                                    <option>Cobayo</option>
+                                    <option>Hamster</option>
+                                    <option>Conejo</option>
                                 </select>
                             </td>
                             <td class="align-middle">
@@ -101,13 +105,21 @@
                                                 <div class="modal-body">
                                                     <form class="form-inline my-2 my-lg-0">
                                                         <div class="input-group mb-2">
-                                                            <input type="text" class="form-control"
-                                                                placeholder="Buscar nombre..."
-                                                                aria-label="Buscar nombre"
+                                                            <input type="text" id="buscarDuenio" class="form-control"
+                                                                placeholder="Buscar nombre o rut..."
+                                                                aria-label="Buscar nombre o rut"
                                                                 aria-describedby="button-addon2">
                                                             <div class="input-group-append">
-                                                                <button class="btn btn-outline-primary px-3" type="button"
-                                                                    id="button-addon2"><i class="fas fa-search"></i></button>
+                                                                <button class="btn btn-outline-primary px-3"
+                                                                    id="botonBuscarDuenio" type="button"
+                                                                    id="button-addon2"><i
+                                                                        class="fas fa-search"></i></button>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="list-group" id="listaDuenios" role="tablist"></div>
                                                             </div>
                                                         </div>
                                                     </form>

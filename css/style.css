@@ -63,3 +63,6 @@ a .fa-plus-circle:hover{
     max-height: 30px;
     min-height: 30px;
 }
+.hc-pointer:hover{
+    cursor: pointer;
+}
